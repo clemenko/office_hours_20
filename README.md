@@ -54,12 +54,12 @@ Experimental mode needs to be enabled.
 
 ```bash
 #centos
-docker build -t test_centos --squash -f Dockerfile_centos .
+docker build -t test_centos --squash -f centos.dockerfile .
 
 #ubuntu
-docker build -t test_ubuntu --squash -f Dockerfile_ubuntu .
+docker build -t test_ubuntu --squash -f ubuntu.dockerfile .
 
 #alpine
-docker build -t test_alpine --squash -f Dockerfile_alpine .
+docker build -t test_alpine --squash -f alpine.dockerfile .
 ```
 
