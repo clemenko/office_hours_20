@@ -8,7 +8,7 @@ At it's core it should be a shell and a package manager. Anything more can give 
 
 Reduce surface area. Do not give you attackers the chance to move horizontally. Also set a baseline of a new base image for your enterprise. Level playing field?
 
-[No Human](no_human.jpg)
+![No Human](no_human.jpg)
 
 ## Where to Start
 
@@ -65,7 +65,12 @@ docker build -t test_ubuntu --squash -f ubuntu.dockerfile .
 docker build -t test_alpine --squash -f alpine.dockerfile .
 ```
 
+## MultiStage Builds
+
+- [docs.docker.com](https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds)
+
+
 ## Dockercon 2020 Labels
 
-- [https://github.com/clemenko/dc20_labels](https://github.com/clemenko/dc20_labels)
-- [https://www.youtube.com/watch?v=PX1NyEKwEIU](https://www.youtube.com/watch?v=PX1NyEKwEIU)
+- [Github](https://github.com/clemenko/dc20_labels)
+- [YouTube](https://www.youtube.com/watch?v=PX1NyEKwEIU)
